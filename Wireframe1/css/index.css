@@ -1,0 +1,71 @@
+/************************************
+* UNIDADES D EMEDIDAS RELATIVAS
+*
+* EM
+* Estas medidas se establecen con 
+* relación al font-size más cercano
+*
+* REM
+* Estas medidas se establecen con
+* relación al font-size del  html
+*
+************************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+      font-size: 62.5%;  
+}
+
+.section_1{
+    width: 37.5rem;
+    height: auto;
+    padding: 3.5rem;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.caja_1{
+    font-size: 0.3rem;
+    background-color: coral;
+    width: 18rem;
+    height: 23rem;
+    border-radius: 10px;
+}
+
+.caja_2{
+    background-color: coral;
+    width: 18rem;
+    height: 10rem;
+    border-radius: 10px;
+    
+    margin-top: 3rem;
+    align-self: flex-end;
+}
+
+.caja_3{
+    background-color: coral;
+    width: 18rem;
+    height: 17rem; 
+    border-radius: 10px;
+    
+    margin-top: 3rem;
+    align-self: center;
+}
+
+.caja_4{
+    background-color: coral;
+    width: 18rem;
+    height: 4rem; 
+    border-radius: 2rem;
+    
+    margin-top: 3rem;
+    align-self: flex-end;
+
+}
+

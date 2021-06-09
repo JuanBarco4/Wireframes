@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+section{
+    padding: 2rem;
+}
+
+.contenedor{
+    background-color: #6BD3A4;
+    width: 33.5rem;
+    height: auto; 
+    border-radius: 20px;
+    padding: 4rem;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.item_1{
+    width: 5rem; 
+    height: 5rem;
+    background-color: aliceblue;
+    border-radius: 100%;
+}
+
+.item_2{
+    width: 25rem; 
+    height: 5rem;
+    background-color: aliceblue;
+    border-radius: 15px;
+    align-self: center;
+    margin-top: 45rem;
+}
